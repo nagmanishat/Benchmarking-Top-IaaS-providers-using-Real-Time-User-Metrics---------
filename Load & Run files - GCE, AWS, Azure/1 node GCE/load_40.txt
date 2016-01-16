@@ -1,0 +1,18 @@
+YCSB Client 0.1
+Command line: -db com.yahoo.ycsb.db.CassandraClient10 -P workloads/workload_test40 -p hosts=10.240.0.2 -threads 
+40 -p columnfamily=data -s -load
+[OVERALL], RunTime(ms), 63671.0
+[OVERALL], Throughput(ops/sec), 8431.954893122458
+[CLEANUP], Operations, 40.0
+[CLEANUP], AverageLatency(us), 75.175
+[CLEANUP], MinLatency(us), 24.0
+[CLEANUP], MaxLatency(us), 457.0
+[CLEANUP], 95thPercentileLatency(us), 156.0
+[CLEANUP], 99thPercentileLatency(us), 457.0
+[INSERT], Operations, 536871.0
+[INSERT], AverageLatency(us), 4697.0205282088245
+[INSERT], MinLatency(us), 183.0
+[INSERT], MaxLatency(us), 2703359.0
+[INSERT], 95thPercentileLatency(us), 7159.0
+[INSERT], 99thPercentileLatency(us), 25951.0
+[INSERT], Return=0, 536871
